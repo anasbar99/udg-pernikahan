@@ -68,8 +68,10 @@ body {
   background-color: aliceblue;
 }
 .hero a:hover {
-  background-color: var(--pink);
+  background-color: #f14e958f;
   color: aliceblue;
+  border: 1px solid #f14e95;
+  box-shadow: 2px 3px 4px 1px #00000091 !important;
 }
 
 @media (max-width: 992px) {
