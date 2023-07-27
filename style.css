@@ -146,7 +146,8 @@ body {
 .home .desc {
   color: var(--bg);
 }
-.home h2 {
+.home h2,
+.info h2 {
   font-family: "Ephesis", cursive;
   font-size: 5rem;
   font-weight: bold;
@@ -171,6 +172,47 @@ body {
 }
 .home .couple img {
   width: 100%;
+}
+.info {
+  background-color: var(--bg);
+  color: white;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+.info .alamat {
+  font-size: 1.4rem;
+}
+.info .deskripsi {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.info .klik-maps:hover {
+  text-decoration: underline;
+}
+.info .card {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  border: 1px solid #999;
+}
+.info .card-header {
+  border-bottom: 1px solid #999;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.info .card-body {
+  font-size: 1rem;
+}
+.info .card-footer {
+  border-top: 1px solid #999;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.info .card-header {
+  font-family: "Ephesis", cursive;
+  text-transform: capitalize;
+  color: #ffd6e9;
+  text-shadow: 0 0 5px rgba(255, 0, 247, 0.735);
+  font-size: 2rem;
 }
 
 @media (max-width: 1200px) {
