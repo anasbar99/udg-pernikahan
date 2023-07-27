@@ -145,7 +145,6 @@ body {
 }
 .home .desc {
   color: var(--bg);
-  z-index: 5;
 }
 .home h2 {
   font-family: "Ephesis", cursive;
@@ -175,17 +174,37 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .home .heart {
+    transform: translateX(-50%) translateY(50px);
+    -webkit-transform: translateX(-50%) translateY(50px);
+    -moz-transform: translateX(-50%) translateY(50px);
+    -ms-transform: translateX(-50%) translateY(50px);
+    -o-transform: translateX(-50%) translateY(50px);
+  }
+  .home .heart i {
+    font-size: 40px;
+  }
 }
 @media (max-width: 992px) {
   html {
     font-size: 85%;
   }
+  body {
+    overflow-x: hidden;
+  }
   .hero::before {
     background-color: #0a0a0a;
+  }
+  .home .heart {
+    display: none;
+  }
+  .home h2 {
+    margin-top: 10px;
   }
   section main {
     margin-top: -20em;
   }
+
   .simply-countdown > .simply-section {
     padding: 45px;
   }
@@ -226,6 +245,12 @@ body {
   }
   section main {
     margin-top: 16em;
+  }
+  .mynavbar {
+    padding: 0 15px;
+  }
+  .mynavbar .offcanvas {
+    padding: 0 20px;
   }
   .simply-countdown > .simply-section {
     padding: 30px;
