@@ -17,6 +17,7 @@
 body {
   font-family: "Work Sans", sans-serif;
   font-size: 1.2rem;
+  overflow-x: hidden;
 }
 
 .hero::before {
@@ -230,9 +231,6 @@ body {
 @media (max-width: 992px) {
   html {
     font-size: 85%;
-  }
-  body {
-    overflow-x: hidden;
   }
   .hero::before {
     background-color: #0a0a0a;
