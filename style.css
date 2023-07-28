@@ -12,7 +12,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  overflow-x: hidden;
 }
 
 body {
@@ -231,6 +230,7 @@ body {
 @media (max-width: 992px) {
   html {
     font-size: 85%;
+    overflow-x: hidden;
   }
   .hero::before {
     background-color: #0a0a0a;
